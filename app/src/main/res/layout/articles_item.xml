@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:orientation="vertical"
+    android:paddingStart="16dp"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackgroundBorderless"
+    android:paddingEnd="16dp">
+
+    <ImageView
+        android:id="@+id/iv_itemnews_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:adjustViewBounds="true" />
+
+    <TextView
+        android:id="@+id/tv_itemnews_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:textColor="@android:color/black"
+        tools:text="Title" />
+
+    <TextView
+        android:id="@+id/tv_itemnews_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12sp"
+        android:textSize="12sp"
+        tools:text="Author" />
+
+    <TextView
+        android:id="@+id/tv_itemnews_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textColor="@android:color/black"
+        tools:text="Description" />
+
+    <TextView
+        android:id="@+id/tv_itemnews_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Date" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/darker_gray"/>
+
+
+
+</LinearLayout>
